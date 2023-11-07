@@ -26,7 +26,7 @@ const Hero = () => {
               <p className="leading-7 font-montserrat text-slate-gray  dark:text-white">{ stat.label}</p>
             </div>
           ))}
-        </div> 
+        </div>
       </div>
       <div className="flex-1 relative justify-center flex items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center  dark:bg-black ">
         <img src={bigShoeImg} alt="shoe collection" width={610} height={500} className="object-contain relative  cursor-pointer  " />
